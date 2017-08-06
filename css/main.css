@@ -528,7 +528,7 @@ form input.error {
 
 /*<alexd>*/
 .bg-text-1 {
-    background-image: url(http://artvokal/img/about/1.png);
+    background-image: url(../img/about/1.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -536,7 +536,7 @@ form input.error {
 }
 
 .bg-text-2 {
-    background-image: url(http://artvokal/img/about/2.png);
+    background-image: url(../img/about/2.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -544,7 +544,7 @@ form input.error {
 }
 
 .bg-text-3 {
-    background-image: url(http://artvokal/img/about/3.png);
+    background-image: url(../img/about/3.png);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -552,11 +552,36 @@ form input.error {
 }
 
 .about.sect .items .item .text .desc {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.6);
     height: 80px;
 }
 
 .unique_p{
     padding-top: 0;
 }
+
+
+/*перенес из media.css*/
+.listening.sect .button {
+position: absolute;
+    bottom: -104px;
+    left: 50%;
+    width: 301px;
+    height: 377px;
+    line-height: 26px;
+    background: url(../img/listening/button.png);
+    padding: 247px 93px 78px 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    margin-left: -104px;
+    margin-top: 0;
+    z-index: -1;
+    }
+    .listening.sect .button:hover {
+        background-position: -301px 0;
+    }
+    .listening.sect .button:active {
+        background-position: -602px 0;
+    }
 /*<alexd>*/
