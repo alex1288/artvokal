@@ -39,6 +39,9 @@
 	.header.sect .nav {
 		display: none;
 	}
+	.listening.sect {
+		display: none;
+	}
 	.header.sect .logo,
 	.header.sect .info {
 		width: auto;
