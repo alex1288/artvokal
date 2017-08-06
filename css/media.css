@@ -1,0 +1,236 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	.about.sect {
+		padding-bottom: 70px;
+	}
+	.about.sect .items {
+		margin-left: 0;
+	}
+	.about.sect .items .item {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+	.price.sect {
+		background-color: #eed25c;
+		padding: 60px 0 100px;
+		margin-top: 140px;
+	}
+	.price.sect::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 100%;
+		border-bottom: 140px solid #eed25c; 
+		border-left: 1200px solid transparent;
+	}
+	.price.sect .items .item .desc {
+		color: #333;
+	}
+	.questions.sect {
+		display: none;
+	}
+	.header.sect.fixed {
+		display: none;
+	}
+	.header.sect .nav {
+		display: none;
+	}
+	.header.sect .logo,
+	.header.sect .info {
+		width: auto;
+	}
+	.main.sect > .container {
+		padding-top: 126px;
+		padding-bottom: 40px;
+	}
+	.main.sect > .container > .ornament {
+		display: none;
+	}
+	.main.sect > .container .button {
+		margin-top: 40px;
+	}
+	.listening.sect {
+		color: #333;
+		background-color: transparent;
+		background-image: none;
+	}
+	.listening.sect .video {
+		display: none;
+	}
+	.listening.sect > .container {
+		padding-top: 140px;
+		padding-bottom: 140px;
+	}
+	.listening.sect .title h2 br {
+		display: none;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.about.sect {
+		padding-bottom: 90px;
+	}
+	.about.sect .slogan br {
+		display: none;
+	}
+	.about.sect .slogan {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.about.sect .slogan::before,
+	.about.sect .slogan::after {
+		display: none;
+	}
+	.about.sect .items .item .text .desc {
+		font-weight: 700;
+	}
+	.about.sect .items .item .icon img {
+		display: none;
+	}
+	.about.sect .items .item .icon img.mobile {
+		display: inline;
+	}
+	.price.sect {
+		padding-top: 100px;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 140px;
+	}
+	.price.sect::before {
+		top: 100%;
+		bottom: auto;
+		border-top: 140px solid #eed25c; 
+		border-bottom: none; 
+		border-left: none;
+		border-right: 1200px solid transparent;
+	}
+	.price.sect .items .item .cost {
+		font-size: 42px;
+	}
+	.price.sect .items .item .desc {
+		color: #fff;
+	}
+	.main.sect > .container .title h1 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.main.sect > .container .title h1 br {
+		display: none;
+	}
+	.main.sect > .container .button {
+		font-size: 22px;
+		line-height: 30px;
+		width: 300px;
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.listening.sect > .container {
+		padding-top: 90px;
+		padding-bottom: 120px;
+	}
+	.contacts.sect .information {
+		padding: 20px;
+	}
+	.contacts.sect .map {
+		display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+	.price.sect .items .item .cost {
+		font-size: 36px;
+	}
+	.price.sect .items .item .desc {
+		font-size: 11px;
+	}
+	.popup.sect.callback {
+		width: 320px;
+		padding: 30px 20px;
+	}
+	.main.sect > .container .title h1 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.main.sect > .container .button {
+		width: 240px;
+		font-size: 18px;
+		padding-top: 90px;
+		padding-bottom: 90px;
+		margin-top: 20px;
+	}
+	.header.sect {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.main.sect > .container {
+		padding-top: 96px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {  
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.listening.sect .button {
+		position: absolute;
+		bottom: -104px;
+		left: 50%;
+		width: 301px;
+		height: 377px;
+		line-height: 26px;
+		background: url("../img/listening/button.png");
+		padding: 247px 93px 78px 0;
+		border-radius: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0; 
+		margin-left: -104px;
+		margin-top: 0;
+		z-index: -1;
+	}
+	.listening.sect .button:hover {
+		background-position: -301px 0;
+	}
+	.listening.sect .button:active {
+		background-position: -602px 0;
+	}
+}
