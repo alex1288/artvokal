@@ -147,7 +147,7 @@ form input.error {
   border: 2px solid red;
 }
 .about.sect {
-    padding: 70px 0 90px;
+    padding: 70px 0 25px;
 }
 .about.sect .slogan {
     position: relative;
@@ -562,26 +562,5 @@ form input.error {
 
 
 /*перенес из media.css*/
-.listening.sect .button {
-position: absolute;
-    bottom: -104px;
-    left: 50%;
-    width: 301px;
-    height: 377px;
-    line-height: 26px;
-    background: url(../img/listening/button.png);
-    padding: 247px 93px 78px 0;
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    margin-left: -104px;
-    margin-top: 0;
-    z-index: -1;
-    }
-    .listening.sect .button:hover {
-        background-position: -301px 0;
-    }
-    .listening.sect .button:active {
-        background-position: -602px 0;
-    }
+
 /*<alexd>*/

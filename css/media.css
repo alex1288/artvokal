@@ -1,9 +1,36 @@
 /*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+
+/*<alexd>*/
+@media only screen and (min-width : 1200px) {
+	.listening.sect .button {
+position: absolute;
+    bottom: -104px;
+    left: 50%;
+    width: 301px;
+    height: 377px;
+    line-height: 26px;
+    background: url(../img/listening/button.png);
+    padding: 247px 93px 78px 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    margin-left: -104px;
+    margin-top: 0;
+    z-index: -1;
+    }
+    .listening.sect .button:hover {
+        background-position: -301px 0;
+    }
+    .listening.sect .button:active {
+        background-position: -602px 0;
+    }
+	}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
 	.about.sect {
-		padding-bottom: 70px;
+		padding-bottom: 25px;
 	}
 	.about.sect .items {
 		margin-left: 0;
@@ -39,9 +66,9 @@
 	.header.sect .nav {
 		display: none;
 	}
-	.listening.sect {
+/*	.listening.sect {
 		display: none;
-	}
+	}*/
 	.header.sect .logo,
 	.header.sect .info {
 		width: auto;
@@ -152,14 +179,14 @@
 	}
 
 /*<alexd>*/
-/*	.unique_p{
+	.unique_p{
     padding-top: 25px;	
 }
 
 .about.sect .items .item .text .desc {
     background-color: rgba(255,255,255,0.6);
     height: 120px;
-}*/
+}
 /*<alexd>*/
 
 /* Extra Small Devices, Phones */
@@ -222,6 +249,3 @@
 
 }
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-	}
