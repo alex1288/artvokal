@@ -556,4 +556,7 @@ form input.error {
     height: 80px;
 }
 
+.unique_p{
+    padding-top: 0;
+}
 /*<alexd>*/

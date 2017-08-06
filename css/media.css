@@ -78,7 +78,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 	.about.sect {
-		padding-bottom: 90px;
+		padding-bottom: 15px;
 	}
 	.about.sect .slogan br {
 		display: none;
@@ -147,7 +147,17 @@
 	.contacts.sect .map {
 		display: none;
 	}
+
+/*<alexd>*/
+	.unique_p{
+    padding-top: 25px;	
 }
+
+.about.sect .items .item .text .desc {
+    background-color: rgba(255,255,255,0.6);
+    height: 120px;
+}
+/*<alexd>*/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 479px) {
